@@ -6,8 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var server = require("./server");
-
+var server = require("./libs/server.js");
 server.start();
 
 

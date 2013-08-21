@@ -5,11 +5,6 @@
  * Time: 下午6:15
  * To change this template use File | Settings | File Templates.
  */
-function index(req,res,next)
-{
-    res.send("home.index test");
-}
-
-exports = {
-    index: index
+exports.show = function(req, res, next){
+    res.render('show', { pet: req.pet });
 };
