@@ -2,14 +2,6 @@
   <library name="mu" type="javaScript">
     <properties>
       <option name="frameworkName" value="Node.js Core Modules" />
-      <sourceFilesUrls>
-        <item url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mu2/lib/mu-cli.js" />
-        <item url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mu2/lib/mu/parser.js" />
-        <item url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mu2/lib/mu.js" />
-        <item url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mu2/lib/mu/errors.js" />
-        <item url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mu2/lib/mu/stream.js" />
-        <item url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mu2/lib/mu/renderer.js" />
-      </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mu2/lib/mu-cli.js" />
