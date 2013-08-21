@@ -5,26 +5,33 @@
  * Time: 下午11:07
  * To change this template use File | Settings | File Templates.
  */
-var mu   = require("./node_modules/mu2/lib/mu");
+//var mu   = require("./node_modules/mu2/lib/mu");
 
-mu.root = __dirname + "/views";
+//mu.root = __dirname + "/views";
+  var route = require("./libs/route.js")  ;
+
+var routingTable={
+    home:1
+};
 
 function route(app)
 {
-    app.get('/', function(req, res){
-        var stream = mu.compileAndRender('shared/index.html', {name: "john"});
-
-        //response.pipe(stream);
-        stream.pipe(res);
-
-        stream.on('end', function() {
-            res.end();
-        });
+    app.all('/:controller', function(req, res, next){
+        router.route(routingTable,req.params.controller, 'index', req, res, next);
     });
 
-    app.post("/",function(req,res){
-        res.send("hello post");
+    app.all('/:controller/:action', function(req, res, next){
+        router.route( routingTable,req.params.controller, req.params.action, req, res, next);
+    });
+
+    app.get('/:controller/:action/:id', function(req, res, next){
+        router.route(routingTable,req.params.controller, req.params.action, req,res, next);
     });
 }
+
+//var siteController = require('./site.js');
+
+
+
 
 exports.route = route;

@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6446c250-1699-4d9d-a4c0-68df601d7834" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/route.js" afterPath="$PROJECT_DIR$/route.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="G:\Code\github\Mychouti\MyChouti\libs\routeToController.js" afterPath="$PROJECT_DIR$/libs/route.js" />
     </list>
     <ignored path="MyChouti.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.js" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1376729545471" ignored="false" />
     <file path="/Server.js" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1376729459842" ignored="false" />
-    <file path="/Dummy.txt" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1377077823123" ignored="false" />
+    <file path="/Dummy.txt" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1377084323442" ignored="false" />
     <file path="/server.js" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1377011414626" ignored="false" />
     <file path="/index.html" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1377077364933" ignored="false" />
     <file path="/a.js" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1377076893377" ignored="false" />
-    <file path="/route.js" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1377077444107" ignored="false" />
+    <file path="/route.js" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1377080308690" ignored="false" />
     <file path="/a.coffee" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1377076833103" ignored="false" />
+    <file path="/home.js" changelist="6446c250-1699-4d9d-a4c0-68df601d7834" time="1377080245674" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,10 @@
         <entry file="file://$PROJECT_DIR$/Views/Shared/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="42" selection-start="158" selection-end="158" vertical-scroll-proportion="-5.428571">
-              <folding />
+              <folding>
+                <marker date="1377077364802" expanded="true" signature="21:191" placeholder="..." />
+                <marker date="1377077364802" expanded="true" signature="63:183" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +61,7 @@
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="32" selection-start="602" selection-end="818" vertical-scroll-proportion="0.0">
+            <state line="40" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,16 +88,34 @@
       <file leaf-file-name="route.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+            <state line="19" column="24" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routeToController.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/libs/routeToController.js">
+      <file leaf-file-name="express" pinned="false" current="true" current-in-tab="true">
+        <entry file="https://github.com/tonyjt/express">
+          <provider selected="true" editor-type-id="httpFileEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="88" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0430839">
+            <state line="15" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc;n#route#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="7" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,15 +152,18 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/Views/Shared/index.html" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/route.js" />
         <option value="$PROJECT_DIR$/libs/routeToController.js" />
+        <option value="$PROJECT_DIR$/route.js" />
+        <option value="$PROJECT_DIR$/controllers/home.js" />
+        <option value="$PROJECT_DIR$/libs/route.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="width" value="1420" />
-    <option name="height" value="860" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -191,7 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,7 +249,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="264" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../express/examples/mvc" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="272" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1066" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1063" />
@@ -240,6 +268,11 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/tonyjt/express" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.index">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -315,22 +348,26 @@
       <created>1377077824818</created>
       <updated>1377077824818</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0.11 初始化">
+      <created>1377077858560</created>
+      <updated>1377077858560</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1420" height="860" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24475019" sideWeight="0.6704871" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23853211" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24512388" sideWeight="0.2860335" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32212886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -416,7 +453,10 @@
     <entry file="file://$PROJECT_DIR$/Views/Shared/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="16" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1377077364802" expanded="true" signature="21:191" placeholder="..." />
+            <marker date="1377077364802" expanded="true" signature="63:183" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,6 +495,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Shared/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="42" selection-start="158" selection-end="158" vertical-scroll-proportion="-5.428571">
+          <folding>
+            <marker date="1377077364802" expanded="true" signature="21:191" placeholder="..." />
+            <marker date="1377077364802" expanded="true" signature="63:183" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc;n#route#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
@@ -464,30 +530,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="32" selection-start="602" selection-end="818" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Shared/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="158" selection-end="158" vertical-scroll-proportion="-5.428571">
+        <state line="40" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+        <state line="19" column="24" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/routeToController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="88" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0430839">
-          <folding />
-        </state>
+    <entry file="https://github.com/tonyjt/express">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
       </provider>
     </entry>
   </component>
